@@ -1,3 +1,62 @@
 /* Font Import */
 /* Inter Font */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
  /* Raleway Font */ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /* Eliminated default styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* Define primary button */
+ .btn-primary {
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+/* Header Section */
+header {
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: repeat-x;
+    width: 100%;
+}
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding: 50px 0;
+}
+header .navigation .logo h1 {
+    font-size: 34px;
+    font-family: "Inter";
+    font-weight: 800;
+    color: #4E47FF;
+}
+header .navigation .signup-btn {
+    width: 132px;
+    height: 48px;
+}
+header .banner {
+    margin: 158px 260px;
+    padding-bottom: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .banner h1 {
+    font-family: "Raleway";
+    font-size: 65px;
+    text-align: center;
+}
+header .banner .banner-btn {
+    width: 174px;
+    height: 48px;
+    margin: 37px 0;
+}
