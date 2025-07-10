@@ -24,8 +24,8 @@
 /* Header Section */
 header {
     background-image: url(../Assets/Hero-bg.png);
-    background-repeat: repeat-x;
-    width: 100%;
+    background-repeat: repeat;
+    padding-bottom: 152px;
 }
 header .navigation {
     display: flex;
@@ -44,8 +44,7 @@ header .navigation .signup-btn {
     height: 48px;
 }
 header .banner {
-    margin: 158px 260px;
-    padding-bottom: 152px;
+    margin-top: 158px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,5 +57,66 @@ header .banner h1 {
 header .banner .banner-btn {
     width: 174px;
     height: 48px;
-    margin: 37px 0;
+    margin-top: 37px;
+}
+
+/* Main Body */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 140px;
+}
+
+/* Action Section */
+main .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+}
+main .action .action-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: "Raleway";
+}
+main .action .action-left .action-btn {
+    width: 230px;
+    height: 48px;
+}
+main .action .action-right {
+    width: 400px;
+    height: 330px;
+    border-radius: 48px;
+}
+
+/* Productive User Section */
+main .productive-user {
+    padding: 50px 140px;
+    margin-top: 116px;
+    width: 100%;
+    border-radius: 24px;
+    background-color: rgb(78, 71, 255, 0.1);
+}
+main .productive-user .productive-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+main .productive-user .productive-user-container .productive-user-items {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 158px;
+    font-family: "Inter";
+    text-align: center;
+}
+main .productive-user .productive-user-container .productive-user-items h1 {
+    font-size: 98px;
+    color: #4E47FF;
+}
+main .productive-user .productive-user-container .productive-user-items h6 {
+    font-size: 24px;
+    font-weight: 200;
 }
