@@ -120,3 +120,42 @@ main .productive-user .productive-user-container .productive-user-items h6 {
     font-size: 24px;
     font-weight: 200;
 }
+
+/* User Feedback Section */
+main .user-feedback {
+    margin-top: 136px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: "Raleway";
+}
+main .user-feedback .feedback-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+main .user-feedback .feedback-container .feedback-box {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #fff;
+    border-radius: 14px;
+    border: 2px solid #f2eded;
+}
+
+/* Get Started Section */
+main .get-started {
+    margin-top: 136px;
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: "Raleway";
+    background-color: #fff;
+}
+main .get-started .get-started-btn {
+    width: 195px;
+    height: 48px;
+}
