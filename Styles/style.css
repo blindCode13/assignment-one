@@ -153,9 +153,71 @@ main .get-started {
     align-items: center;
     gap: 20px;
     font-family: "Raleway";
+    border-radius: 14px;
     background-color: #fff;
 }
 main .get-started .get-started-btn {
     width: 195px;
     height: 48px;
+}
+
+/* Get In Touch Section */
+main .get-intouch {
+    margin-top: 90px;
+    padding: 70px 0;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .get-intouch .form-primary {
+    margin: 10px 0 20px;
+    padding: 20px;
+    border: 1px solid #d6dded;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 18px;
+}
+main .get-intouch form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter";
+}
+main .get-intouch form #mail, #name {
+    width: 490px;
+    height: 70px;
+}
+main .get-intouch form .txtarea {
+    width: 490px;
+    height: 135px;
+    resize: none;
+}
+main .get-intouch form .get-intouch-btn {
+    width: 490px;
+    height: 62px;
+}
+
+/* Footer */
+footer {
+    padding: 104px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter";
+    background-color: #fff;
+}
+footer .footer-nav {
+    display: flex;
+
+}
+footer .footer-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+footer .footer-nav ul a {
+    text-decoration: none;
+    color: #000;
 }
